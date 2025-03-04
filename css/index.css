@@ -1,5 +1,63 @@
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  font-family: Comic Sans MS;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background-color: black;
+  border: bold;
+  color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: white;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  background-color: black;
+}
+
+.heading{
+  text-decoration: underline;
   text-align: center;
+}
+
+.greetingimg {
+  display: block;
+  height: 300px;
+  width: 500px;
+  margin: 50px auto 0 auto;
+}
+
+.greeting {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px auto;
+  text-align: center;
+  text-decoration: wavy;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin: 0;
 }
