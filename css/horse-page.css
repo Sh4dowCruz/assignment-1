@@ -17,7 +17,7 @@ body {
     border-color: white;
 }
 
-.gohome:hover {
+.button:hover {
     background-color: white;
     color: black;
 }
