@@ -49,12 +49,12 @@ body {
     text-align: center;
 }
 
-.horse {
+.animal {
     height: 300px;
     width: 500px;
 }
 
-.tablehorse {
+.tableanimal {
     display: flex;
     justify-content: center;
     gap: 100px;
