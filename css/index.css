@@ -30,6 +30,11 @@ body {
   background-color: black;
 }
 
+.heading{
+  text-decoration: underline;
+  text-align: center;
+}
+
 .greetingimg {
   display: block;
   height: 300px;
@@ -53,4 +58,6 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  left: 0;
+  margin: 0;
 }
